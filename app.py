@@ -8,7 +8,18 @@ OUTPUT_DIR = BASE_DIR / "output"
 
 st.set_page_config(page_title="Mini Braze CRM Dashboard", layout="wide")
 
-st.title("Mini Braze CRM + Personalization Engine")
+st.title("Mini Braze AI Platform 🚀")
+st.markdown("""
+AI-powered customer engagement and analytics platform inspired by Braze.
+
+### What this does:
+- 📊 Analyze customer behavior  
+- 🎯 Segment users  
+- 🤖 Generate AI insights  
+- 🔁 Simulate campaign strategies  
+
+Built using Azure-style data pipelines + AI integration.
+""")
 st.write(
     "A lightweight project that simulates event ingestion, identity resolution, "
     "SQL segmentation, reverse ETL, A/B testing, and personalized messaging."
