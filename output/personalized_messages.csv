@@ -1,0 +1,7 @@
+user_id,email,segment,ab_variant,channel,message
+U1001,arjun@example.com,high_value,B,in_app,"Hi Arjun, thanks for being a premium user! Unlock your exclusive feature bundle today."
+U1002,maya@example.com,inactive,A,email,"Hi Maya, we miss you! Come back and see what is new."
+U1003,rahul@example.com,high_value,B,in_app,"Hi Rahul, thanks for being a premium user! Unlock your exclusive feature bundle today."
+U1004,sara@example.com,do_not_message,A,none,Suppressed due to consent preference.
+U1005,john@example.com,trial_user,A,email,"Hi John, your trial is active. Explore premium features before your trial ends."
+U1006,neha@example.com,high_value,A,email,"Hi Neha, thanks for being a premium user! Unlock your exclusive feature bundle today."

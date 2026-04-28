@@ -1,0 +1,80 @@
+[
+  {
+    "external_id": "U1001",
+    "email": "arjun@example.com",
+    "attributes": {
+      "first_name": "Arjun",
+      "plan": "Premium",
+      "country": "US",
+      "segment": "high_value",
+      "total_events": 4,
+      "purchase_count": 1,
+      "ab_variant": "B"
+    }
+  },
+  {
+    "external_id": "U1002",
+    "email": "maya@example.com",
+    "attributes": {
+      "first_name": "Maya",
+      "plan": "Free",
+      "country": "US",
+      "segment": "inactive",
+      "total_events": 1,
+      "purchase_count": 0,
+      "ab_variant": "A"
+    }
+  },
+  {
+    "external_id": "U1003",
+    "email": "rahul@example.com",
+    "attributes": {
+      "first_name": "Rahul",
+      "plan": "Premium",
+      "country": "CA",
+      "segment": "high_value",
+      "total_events": 2,
+      "purchase_count": 1,
+      "ab_variant": "B"
+    }
+  },
+  {
+    "external_id": "U1004",
+    "email": "sara@example.com",
+    "attributes": {
+      "first_name": "Sara",
+      "plan": "Free",
+      "country": "US",
+      "segment": "do_not_message",
+      "total_events": 2,
+      "purchase_count": 0,
+      "ab_variant": "A"
+    }
+  },
+  {
+    "external_id": "U1005",
+    "email": "john@example.com",
+    "attributes": {
+      "first_name": "John",
+      "plan": "Trial",
+      "country": "UK",
+      "segment": "trial_user",
+      "total_events": 2,
+      "purchase_count": 0,
+      "ab_variant": "A"
+    }
+  },
+  {
+    "external_id": "U1006",
+    "email": "neha@example.com",
+    "attributes": {
+      "first_name": "Neha",
+      "plan": "Premium",
+      "country": "US",
+      "segment": "high_value",
+      "total_events": 2,
+      "purchase_count": 1,
+      "ab_variant": "A"
+    }
+  }
+]

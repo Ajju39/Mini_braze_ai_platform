@@ -1,0 +1,7 @@
+user_id,email,first_name,plan,country,consent_status,created_at
+U1001,arjun@example.com,Arjun,Premium,US,opted_in,2026-04-01
+U1002,maya@example.com,Maya,Free,US,opted_in,2026-04-03
+U1003,rahul@example.com,Rahul,Premium,CA,opted_in,2026-04-05
+U1004,sara@example.com,Sara,Free,US,opted_out,2026-04-07
+U1005,john@example.com,John,Trial,UK,opted_in,2026-04-10
+U1006,neha@example.com,Neha,Premium,US,opted_in,2026-04-12

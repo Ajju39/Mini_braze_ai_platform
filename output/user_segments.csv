@@ -1,0 +1,7 @@
+user_id,email,first_name,plan,country,consent_status,total_events,purchase_count,last_active_at,segment
+U1001,arjun@example.com,Arjun,Premium,US,opted_in,4,1,2026-04-22 13:00:00,high_value
+U1002,maya@example.com,Maya,Free,US,opted_in,1,0,2026-04-02 08:30:00,inactive
+U1003,rahul@example.com,Rahul,Premium,CA,opted_in,2,1,2026-04-23 16:00:00,high_value
+U1004,sara@example.com,Sara,Free,US,opted_out,2,0,2026-04-21 12:05:00,do_not_message
+U1005,john@example.com,John,Trial,UK,opted_in,2,0,2026-04-19 10:17:00,trial_user
+U1006,neha@example.com,Neha,Premium,US,opted_in,2,1,2026-04-20 15:40:00,high_value

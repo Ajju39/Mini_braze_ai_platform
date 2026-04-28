@@ -1,0 +1,14 @@
+device_id,event_name,platform,timestamp,properties.source,properties.session_length,properties.amount,properties.trial_days,properties.feature,event_date,user_id
+D501,app_open,windows,2026-04-18 09:00:00,preinstall,,,,,2026-04-18,U1001
+D501,session_start,windows,2026-04-18 09:01:00,,12.0,,,,2026-04-18,U1001
+D501,purchase,windows,2026-04-18 09:20:00,,,49.99,,,2026-04-18,U1001
+D502,app_open,web,2026-04-19 10:15:00,organic,,,,,2026-04-19,U1005
+D502,trial_started,web,2026-04-19 10:17:00,,,,14.0,,2026-04-19,U1005
+D503,app_open,desktop,2026-04-20 11:05:00,preinstall,,,,,2026-04-20,U1003
+D504,app_open,windows,2026-04-02 08:30:00,preinstall,,,,,2026-04-02,U1002
+D505,app_open,web,2026-04-20 15:12:00,campaign,,,,,2026-04-20,U1006
+D505,purchase,web,2026-04-20 15:40:00,,,19.99,,,2026-04-20,U1006
+D506,session_start,windows,2026-04-21 12:00:00,,5.0,,,,2026-04-21,U1004
+D506,feature_used,windows,2026-04-21 12:05:00,,,,,recommendations,2026-04-21,U1004
+D501,feature_used,windows,2026-04-22 13:00:00,,,,,dashboard,2026-04-22,U1001
+D503,purchase,desktop,2026-04-23 16:00:00,,,99.99,,,2026-04-23,U1003

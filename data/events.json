@@ -1,0 +1,119 @@
+[
+  {
+    "device_id": "D501",
+    "event_name": "app_open",
+    "platform": "windows",
+    "timestamp": "2026-04-18T09:00:00",
+    "properties": {
+      "source": "preinstall"
+    }
+  },
+  {
+    "device_id": "D501",
+    "event_name": "session_start",
+    "platform": "windows",
+    "timestamp": "2026-04-18T09:01:00",
+    "properties": {
+      "session_length": 12
+    }
+  },
+  {
+    "device_id": "D501",
+    "event_name": "purchase",
+    "platform": "windows",
+    "timestamp": "2026-04-18T09:20:00",
+    "properties": {
+      "amount": 49.99
+    }
+  },
+  {
+    "device_id": "D502",
+    "event_name": "app_open",
+    "platform": "web",
+    "timestamp": "2026-04-19T10:15:00",
+    "properties": {
+      "source": "organic"
+    }
+  },
+  {
+    "device_id": "D502",
+    "event_name": "trial_started",
+    "platform": "web",
+    "timestamp": "2026-04-19T10:17:00",
+    "properties": {
+      "trial_days": 14
+    }
+  },
+  {
+    "device_id": "D503",
+    "event_name": "app_open",
+    "platform": "desktop",
+    "timestamp": "2026-04-20T11:05:00",
+    "properties": {
+      "source": "preinstall"
+    }
+  },
+  {
+    "device_id": "D504",
+    "event_name": "app_open",
+    "platform": "windows",
+    "timestamp": "2026-04-02T08:30:00",
+    "properties": {
+      "source": "preinstall"
+    }
+  },
+  {
+    "device_id": "D505",
+    "event_name": "app_open",
+    "platform": "web",
+    "timestamp": "2026-04-20T15:12:00",
+    "properties": {
+      "source": "campaign"
+    }
+  },
+  {
+    "device_id": "D505",
+    "event_name": "purchase",
+    "platform": "web",
+    "timestamp": "2026-04-20T15:40:00",
+    "properties": {
+      "amount": 19.99
+    }
+  },
+  {
+    "device_id": "D506",
+    "event_name": "session_start",
+    "platform": "windows",
+    "timestamp": "2026-04-21T12:00:00",
+    "properties": {
+      "session_length": 5
+    }
+  },
+  {
+    "device_id": "D506",
+    "event_name": "feature_used",
+    "platform": "windows",
+    "timestamp": "2026-04-21T12:05:00",
+    "properties": {
+      "feature": "recommendations"
+    }
+  },
+  {
+    "device_id": "D501",
+    "event_name": "feature_used",
+    "platform": "windows",
+    "timestamp": "2026-04-22T13:00:00",
+    "properties": {
+      "feature": "dashboard"
+    }
+  },
+  {
+    "device_id": "D503",
+    "event_name": "purchase",
+    "platform": "desktop",
+    "timestamp": "2026-04-23T16:00:00",
+    "properties": {
+      "amount": 99.99
+    }
+  }
+]
