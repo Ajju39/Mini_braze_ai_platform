@@ -1,3 +1,7 @@
-pandas
 streamlit
-jinja2
+pandas
+numpy
+plotly
+scikit-learn
+openai
+python-dotenv
