@@ -74,3 +74,46 @@ st.markdown(
     - **A/B testing:** Users are assigned to email or in-app variants.
     """
 )
+# -----------------------------
+# AI Bot Section
+# -----------------------------
+st.divider()
+st.subheader("🤖 Mini Braze AI Bot")
+
+st.write("Ask questions about customer segments, campaigns, events, or personalization.")
+
+user_question = st.chat_input("Ask the AI bot...")
+
+if user_question:
+    st.chat_message("user").write(user_question)
+
+    # Simple rule-based bot for now
+    question = user_question.lower()
+
+    if "segment" in question:
+        answer = (
+            "This app segments users based on behavior such as purchases, activity, "
+            "and message eligibility. You can use segments for targeted campaigns."
+        )
+    elif "campaign" in question:
+        answer = (
+            "Campaign strategies can be created using user segments, personalized messages, "
+            "and A/B testing variants like email or in-app messaging."
+        )
+    elif "event" in question:
+        answer = (
+            "Unified events are created after identity resolution, where device IDs are mapped "
+            "to known user IDs for better customer tracking."
+        )
+    elif "ab" in question or "a/b" in question:
+        answer = (
+            "A/B testing assigns users to different variants, such as email or in-app, "
+            "to compare engagement performance."
+        )
+    else:
+        answer = (
+            "This Mini Braze AI Platform helps analyze customer behavior, create user segments, "
+            "generate personalized messages, and simulate campaign strategies."
+        )
+
+    st.chat_message("assistant").write(answer)
